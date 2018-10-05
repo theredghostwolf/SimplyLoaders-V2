@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IRI",
+    "IEI",
+    "IHI"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "H": 
+      {
+        "item": "minecraft:hopper"
+      },
+    "E" : {
+	  "item": "minecraft:egg"
+	},
+   "R": {
+	"item": "minecraft:redstone"
+	}
+    
+  },
+  "result": {
+    "item": "simplyloaders:entityloader"
+  }
+}

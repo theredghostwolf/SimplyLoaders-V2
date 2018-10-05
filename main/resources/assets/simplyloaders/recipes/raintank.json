@@ -1,0 +1,25 @@
+{
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "P P",
+    "PBP",
+    "PSP"
+  ],
+  "key": {
+    "P": {
+	"type": "forge:ore_dict",
+      "ore": "plankWood"
+    },
+    "S": 
+      {
+	"type": "forge:ore_dict",
+        "ore": "slabWood"
+      },
+    "B" : {
+	  "item": "minecraft:bucket"
+	}   
+  },
+  "result": {
+    "item": "simplyloaders:raintank"
+  }
+}

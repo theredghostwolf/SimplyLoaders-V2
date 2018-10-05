@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IHI",
+    "ICI",
+    "IRI"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "H": 
+      {
+        "item": "minecraft:hopper"
+      },
+    "C" : {
+	  "item": "minecraft:bucket"
+	},
+   "R": {
+	"item": "minecraft:redstone"
+	}
+    
+  },
+  "result": {
+    "item": "simplyloaders:fluidunloader"
+  }
+}
