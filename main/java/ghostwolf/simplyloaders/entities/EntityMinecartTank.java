@@ -49,7 +49,7 @@ public class EntityMinecartTank extends EntityMinecart {
 		if (capability == CapabilityFluidHandler.FLUID_HANDLER_CAPABILITY) {
 			return (T) this.tank;
 		}
-		return null;
+		return super.getCapability(capability, facing);
 	}
 	
 	@Override
@@ -57,7 +57,7 @@ public class EntityMinecartTank extends EntityMinecart {
 		if (capability == CapabilityFluidHandler.FLUID_HANDLER_CAPABILITY) {
 			return true;
 		} else {
-			return false;
+			return super.hasCapability(capability, facing);
 		}
 	}
 	
